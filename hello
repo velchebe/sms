@@ -1,1 +1,8 @@
 hello worldr
+
+
+CREATE TABLE Groups (
+    OrganisationGroup VARCHAR(255),
+    GroupId INT PRIMARY KEY,
+    GroupName VARCHAR(255)
+);
