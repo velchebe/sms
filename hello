@@ -9,7 +9,7 @@ CREATE TABLE Groups (
 
 
 
-CREATE TABLE GroupsInfo (
+CREATE TABLE groups_members (
     org_group_code VARCHAR(255),
     groupId INT PRIMARY KEY,
     phoneNumber VARCHAR(15),
