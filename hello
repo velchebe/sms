@@ -6,3 +6,12 @@ CREATE TABLE Groups (
     GroupId INT PRIMARY KEY,
     GroupName VARCHAR(255)
 );
+
+
+
+CREATE TABLE GroupsInfo (
+    org_group_code VARCHAR(255),
+    groupId INT PRIMARY KEY,
+    phoneNumber VARCHAR(15),
+    Names VARCHAR(255)
+);
